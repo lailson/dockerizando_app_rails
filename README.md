@@ -81,17 +81,13 @@ Subir o serviço
 docker-compose up
 ```
 
-obs.:
-quando finalizar o serviço e for iniciar novamente e encontrar um erro de pid talvez seja necessário utilizar o comando abaixo:
-```
-rm ./tmp/pids/server.pid
-```
+
 
 
 ## Utilizando
 
-* [Ruby:2.5](https://hub.docker.com/_/ruby/) - Utilizando a imagem do ruby 2.5
-* [Rails 5.2.1](https://rubygems.org/gems/rails) - Utilzaindo a gem do rails na versão 5.2.1
+* [Ruby:2.6.3](https://hub.docker.com/_/ruby/) - Utilizando a imagem do ruby 2.6.3
+* [Rails 5.2.1](https://rubygems.org/gems/rails) - Utilzaindo a gem do rails na versão 5.2.3
 * [Postgres](https://www.postgresql.org/) - Utilizando o postgres como banco de dados
 
 ## Contribuindo
