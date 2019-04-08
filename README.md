@@ -37,7 +37,7 @@ docker-compose run web rails new . --force --database=postgresql
 Se estiver no linux utilize o comando
 
 ```
-sudo chown -R $USER:$USER
+sudo chown -R $USER:$USER .
 ```
 
 Buildar o projeto
